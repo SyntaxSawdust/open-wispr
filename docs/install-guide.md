@@ -10,7 +10,7 @@ The installer handles everything automatically — Homebrew tap, formula install
 
 ## What the installer does
 
-1. **Installs via Homebrew** — taps `human37/open-wispr` and installs the formula
+1. **Installs via Homebrew** — taps `human37/open-wispr` and installs the formula. Recent versions of Homebrew (6.0+) have tightened security around third-party taps, so you may be asked to trust the package first — the installer prints the exact `brew trust` command to run if so.
 2. **Copies the app bundle** to `~/Applications/OpenWispr.app`
 3. **Requests permissions** — Microphone and Accessibility
 4. **Downloads the Whisper model** (~142 MB, one-time)
